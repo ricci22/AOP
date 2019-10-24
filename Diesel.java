@@ -1,6 +1,6 @@
 package test;
 
-public class Diesel {
+public class Diesel extends BahanBakar{
 	private Integer cetane;
 
 	public Integer getCetane() {
