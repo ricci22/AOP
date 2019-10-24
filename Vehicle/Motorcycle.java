@@ -1,4 +1,4 @@
-public class Car extends Vehicle implements Lamp {
+public class Motorcycle extends Vehicle implements Lamp{
     private int power;
 
     public int getPower() {
@@ -11,6 +11,6 @@ public class Car extends Vehicle implements Lamp {
 
     @Override
     public void lightBeam(int power) {
-        System.out.println("Lampu mobil nyala dengan daya " + power);
+        System.out.println("Lampu motor nyala dengan daya " + power);
     }
 }
